@@ -574,7 +574,7 @@ p.lft {
 }
 
 p.rft {
-	margin: 2em 10% 2em 30%;
+	margin: 2em 20% 2em 30%;
 	font-size: 0.618em;
 	text-align: right;
 }
@@ -587,9 +587,9 @@ p.rmft {
 
 p.pft {
 	font-size: 0.618em;
-	margin: 2em 40% 2em 10%;
+	margin: 2em 30% 2em 20%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 p.lm {
@@ -608,16 +608,16 @@ p.icit {
 	font-size: 1em;
 	font-weight: 400;
 	font-style: italic;
-	margin: 2em 40% 2em 10%;
+	margin: 2em 20% 2em 30%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 p.citt {
 	font-size: 1em;
 	font-weight: 700;
 	font-style: italic;
-	margin: 2em 10% 2em 40%;
+	margin: 2em 20% 2em 30%;
 	padding: 0;
 }
 
@@ -625,7 +625,7 @@ p.procit {
 	font-size: 1em;
 	font-style: italic;
 	font-weight: 400;
-	margin: 2em 10% 2em 40%;
+	margin: 2em 20% 2em 30%;
 	padding: 0;
 }
 
@@ -635,13 +635,13 @@ body.slt p.procit {
 	font-size: 1em;
 	font-weight: 400;
 	font-style: italic;
-	margin: 2em 10% 2em 40%;
+	margin: 2em 20% 2em 30%;
 	padding: 0;
 	}
 
 body.slt p.ft {
 	font-style: italic;
-	margin: -2em 10% 2em 40%;
+	margin: -2em 20% 2em 30%;
 }
 
 p.icap {
@@ -662,8 +662,8 @@ p.fig {
   	font-size: 0.618em;
 	text-align: left;
 	float: left;
-	width: 25%;
-	margin: 1em 70% 1em 5%;
+	width: 20%;
+	margin: 1em 75% 1em 5%;
 	padding: 0;
 }
 
