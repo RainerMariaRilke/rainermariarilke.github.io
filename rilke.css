@@ -219,6 +219,50 @@ a img {
        url('fonts/AlegreyaSans-Black.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/AlegreyaSans-Black.eot');
+  src: local('AlegreyaSans ExtraBold'), local('AlegreyaSans Black'),
+       url('fonts/AlegreyaSans-ExtraBold.woff2') format('woff2'),
+       url('fonts/AlegreyaSans-ExtraBold.woff') format('woff'),
+       url('fonts/AlegreyaSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/AlegreyaSans-Black.eot');
+  src: local('AlegreyaSans Bold'), local('AlegreyaSans Black'),
+       url('fonts/AlegreyaSans-Bold.woff2') format('woff2'),
+       url('fonts/AlegreyaSans-Bold.woff') format('woff'),
+       url('fonts/AlegreyaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/AlegreyaSans-Black.eot');
+  src: local('AlegreyaSans Medium'), local('AlegreyaSans Black'),
+       url('fonts/AlegreyaSans-Medium.woff2') format('woff2'),
+       url('fonts/AlegreyaSans-Medium.woff') format('woff'),
+       url('fonts/AlegreyaSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: url('fonts/AlegreyaSans-BlackItalic.eot');
+  src: local('AlegreyaSans-BlackItalic'), local('AlegreyaSans-BlackItalic'),
+       url('fonts/AlegreyaSans-BlackItalic.woff2') format('woff2'),
+       url('fonts/AlegreyaSans-BlackItalic.woff') format('woff'),
+       url('fonts/AlegreyaSans-BlackItalic.ttf') format('truetype');
+}
+
 
 /* document setup
 -------------------------------------------------------------- */
@@ -227,9 +271,9 @@ body {
 	font-family: "Alegreya", serif;
 	color: #111;
 	text-align: left;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: 400;
-	line-height: 1.6;
+	line-height: 1.5;
 	background: #fff;
 	border: none;
 	text-rendering: optimizeLegibility;
@@ -245,10 +289,11 @@ body {
 	font-feature-settings: "liga" on, "clig" on, "dlig" on, "onum" on, "pnum" on, "kern" on, "calt" on;
 }
 
+  
 main {
 	position: relative;
 	box-sizing: border-box;
-	margin: 9em 0 0;
+	margin: 10em 0 0;
 	padding: 0;
 	text-align: left;
 }
@@ -286,7 +331,6 @@ header {
 	padding: 2em 0;
 	z-index: 100;
 }
-
 h1 {
 	float: left;
 	position: relative;
@@ -297,7 +341,7 @@ h1 {
 	font-weight: 700;
 	font-size: 1em;
 	text-align: left;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 h1 a:link,
@@ -317,7 +361,7 @@ nav {
 	margin: 0;
 	padding: 0 5% 0 0;
 	font-size: 1em;
-	line-height: 1.6;
+	line-height: 1.5;
 	text-align: right;
 }
 
@@ -398,11 +442,11 @@ footer p.impressum a:hover {
 h2 {
 	font-size: 2.618em;
 	font-weight: 900;
-	color: #333;
+	color: #323643;
 	line-height: 1;
-	margin: 0 60% 0 5%;
+	margin: 0 0 1em 5%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 h2 a:link,
@@ -417,15 +461,16 @@ h2 a:hover {
 
 h3 {
 	font-size: 1em;
-	font-weight: 700;
-	margin: 3em 60% 2em 5%;
+	font-weight: 900;
+	margin: 4em 0 1em 30%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 h3 a:link,
 h3 a:visited,
 h3 a:hover {
+	font-weight: 900;
 	display: block;
 	border: none;
 	text-decoration: none;
@@ -436,9 +481,9 @@ h4 {
 	font-size: 1em;
 	font-weight: 700;
 	color: #333;
-	margin: 3em 60% 2em 5%;
+	margin: 4em 0 1em 30%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 h4 a:link,
@@ -453,9 +498,9 @@ h4 a:hover {
 h5 {
 	font-size: 1em;
 	font-weight: 700;
-	margin: 2em 60% 2em 5%;
+	margin: 2em 20% 1em 30%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 h5 a:link,
@@ -470,10 +515,9 @@ h5 a:hover {
 h6 {
 	font-size: 1em;
 	font-weight: 700;
-	font-style: italic;
-	margin: 0 60% 2em 5%;
+	margin: 0 20% 2em 30%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 h6 a:link,
@@ -487,7 +531,7 @@ h6 a:hover {
 
 p {
 	font-size: 1em;
-	margin: 2em 10% 2em 40%;
+	margin: 2em 20% 2em 30%;
 	padding: 0;
 }
 
@@ -518,7 +562,7 @@ p.inlead {
 }
 
 p.ft {
-	margin: 2em 10% 2em 40%;
+	margin: 2em 20% 2em 30%;
 	font-size: 0.618em;
 }
 
@@ -555,10 +599,9 @@ p.lm {
 }
 
 p.cit {
-	font-size: 1em;
-	margin: 2em 40% 2em 10%;
+	margin: 2em 30% 2em 20%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 }
 
 p.icit {
@@ -658,6 +701,7 @@ cite {
 /* images
 ----------------------------------------------- */
 
+
 img.l90 {
 	width: 90%;
 	margin: 1em 10% 1em 0%;
@@ -707,9 +751,9 @@ img.r50 {
 }
 
 img.pic {
-	margin: 1em 0;
+	margin: 1em 5%;
 	padding: 0;
-	width: 100%;
+	width: 90%;
 }
 
 img.picnl {
@@ -755,61 +799,10 @@ img.bcright {
 /* media queries
 -------------------------------------------------------------- */
 
-@media only screen and (min-width: 1600px) {
-body {
-	margin: 0 auto;
-	max-width: 1600px;
-	}
-img.l90 {
-	width: 90%;
-	margin: 1em 5% 1em 5%;
-	padding: 0;
-}
-
-img.r90 {
-	width: 90%;
-	margin: 1em 5% 1em 5%;
-	padding: 0;
-}
-
-img.l80 {
-	width: 80%;
-	margin: 1em 5% 1em 5%;
-	padding: 0;
-}
-
-img.r80 {
-	width: 80%;
-	margin: 1em 5% 1em 5%;
-	padding: 0;
-}
-
-img.l70 {
-	width: 65%;
-	margin: 1em 30% 1em 5%;
-	padding: 0;
-}
-
-img.r70 {
-	width: 65%;
-	margin: 1em 5% 1em 30%;
-	padding: 0;
-}
-
-img.l50 {
-	width: 50%;
-	margin: 1em 50% 1em 0;
-	padding: 0;
-}
-
-img.r50 {
-	width: 50%;
-	margin: 1em 0 1em 50%;
-	padding: 0;
-}
-}
-
 @media only screen and (max-width:768px) {
+body {
+	font-size: 20px;
+}
 h1 {
 	float: left;
 	position: relative;
@@ -833,11 +826,22 @@ h2 {
 	padding: 0;
 	text-align: left;
 	}
+p,
+p.ft,
+p.rft,
+p.citt,
+p.procit,
+p.lead,
+p.inlead,
+p.lm {
+	margin: 2em 10% 2em 30%;
+	text-align: left;
+	}
 p.cit,
 p.pft {
-	margin: 0 40% 1em 5%;
+	margin: 0 20% 1em 20%;
 	padding: 0;
-	text-align: right;
+	text-align: left;
 	}
 p.rft,
 p.citt,
@@ -854,8 +858,8 @@ p.lead {
 p.lfig,
 p.rfig {
 	float: left;
-	width: 25%;
-	margin: 1em 70% 1em 5%;
+	width: 20%;
+	margin: 1em 75% 1em 5%;
 	padding: 0;
 	}
 img.pic,
