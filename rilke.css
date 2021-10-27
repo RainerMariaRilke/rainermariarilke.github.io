@@ -550,7 +550,8 @@ span.stretch {
 p.lead,
 p.leadit {
 	font-size: 1em;
-	margin: 2em 30% 2em 5%;
+	font-weight: 900;
+	margin: 2em 40% 2em 5%;
 	padding: 0;
 }
 
