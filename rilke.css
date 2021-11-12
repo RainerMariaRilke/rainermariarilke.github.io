@@ -782,14 +782,14 @@ img.p70 {
 
 img.bcleft {
 	float: left;
-	width: 30%;
+	width: 20%;
 	margin: 0 5%;
 	padding: 0;
 }
 
 img.bcright {
 	float: right;
-	width: 30%;
+	width: 20%;
 	margin: 0 5%;
 	padding: 0;
 }
@@ -981,7 +981,7 @@ img.p70 {
 	}
 img.bcleft,
 img.bcright {
-	margin: 0 5% 0.5em 10%;
+	margin: 0 5% 0.5em 50%;
 	padding: 0;
 	}
 p.fig,
