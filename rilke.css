@@ -289,7 +289,23 @@ body {
 	font-feature-settings: "liga" on, "clig" on, "dlig" on, "onum" on, "pnum" on, "kern" on, "calt" on;
 }
 
-  
+body.hp {
+	background-image: url('rilke-hp.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: contain;
+	}
+
+body.hp header {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 2em 0;
+	z-index: 100;
+}
+
 main {
 	position: relative;
 	box-sizing: border-box;
@@ -799,10 +815,23 @@ img.bcright {
 /* media queries
 -------------------------------------------------------------- */
 
+@media only screen and (max-width:1024px) {
+body.hp header {
+	margin: 1em 0;
+	padding: 0.5em 0;
+	background: rgba(255, 255, 255, 0.9);
+	}
+}
+
 @media only screen and (max-width:768px) {
 body {
 	font-size: 20px;
-}
+	}
+body.hp header {
+	margin: 1em 0;
+	padding: 0.5em 0;
+	background: rgba(255, 255, 255, 0.9);
+	}
 h1 {
 	float: left;
 	position: relative;
@@ -812,7 +841,7 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	text-align: left;
-}
+	}
 nav {
 	float: right;
 	position: relative;
@@ -884,7 +913,12 @@ img.p70 {
 @media only screen and (max-width:610px) {
 body {
 	font-size: 20px;
-}
+	}
+body.hp header {
+	margin: 1em 0;
+	padding: 0.5em 0;
+	background: rgba(255, 255, 255, 0.9);
+	}
 h1 {
 	float: left;
 	position: relative;
