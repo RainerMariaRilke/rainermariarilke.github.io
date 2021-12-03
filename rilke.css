@@ -290,7 +290,7 @@ body {
 }
 
 body.hp {
-	background-image: url('rilke-hp.png');
+	background-image: url('images/rilke-hp.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
