@@ -966,9 +966,6 @@ img.p70 {
 body {
 	font-size: 20px;
 }
-body.hp {
-	background-position: top;
-}
 body.hp header {
 	margin: 1em 0;
 	padding: 0.5em 0;
