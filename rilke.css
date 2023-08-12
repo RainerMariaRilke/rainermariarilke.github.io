@@ -271,7 +271,7 @@ body {
 	font-family: "Alegreya", serif;
 	color: #111;
 	text-align: left;
-	font-size: 21px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 1.5;
 	background: #fff;
@@ -615,7 +615,7 @@ p.lm {
 }
 
 p.cit {
-	margin: 2em 30% 2em 20%;
+	margin: 2em 25% 2em 25%;
 	padding: 0;
 	text-align: left;
 }
