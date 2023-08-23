@@ -273,7 +273,7 @@ body {
 	text-align: left;
 	font-size: 22px;
 	font-weight: 400;
-	line-height: 1.5;
+	line-height: 1.6;
 	background: #fff;
 	border: none;
 	text-rendering: optimizeLegibility;
@@ -547,7 +547,7 @@ h6 a:hover {
 
 p {
 	font-size: 1em;
-	margin: 2em 20% 2em 30%;
+	margin: 2.4em 20% 2.4em 30%;
 	padding: 0;
 }
 
