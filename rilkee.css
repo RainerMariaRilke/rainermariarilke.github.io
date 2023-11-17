@@ -277,7 +277,8 @@ body {
 	background: #fff;
 	border: none;
 	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	font-kerning: normal;
 	font-variant-ligatures: common-ligatures contextual;
