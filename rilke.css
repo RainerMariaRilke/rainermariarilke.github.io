@@ -676,6 +676,8 @@ p.right {
 }
 
 p.fig {
+  	float: left;
+	width: 20%;
   	font-size: 0.618em;
 	margin: 2.4em 75% 2.4em 5%;
 	padding: 0;
