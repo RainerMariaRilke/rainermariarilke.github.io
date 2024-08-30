@@ -880,7 +880,9 @@ p.citt,
 p.procit,
 p.lead,
 p.inlead,
-p.lm {
+p.lm,
+p.ftl,
+p.ftr {
 	margin: 2em 10% 2em 30%;
 	text-align: left;
 	}
@@ -901,13 +903,6 @@ p.lead {
 	margin-left: 5%;
 	margin-right: 40%;
 	padding: 0;
-	}
-p.ftl,
-p.ftr {
-	margin-left: 5%;
-	margin-right: 75%;
-	padding: 0;
-	text-align: left;
 	}
 p.lfig,
 p.rfig {
