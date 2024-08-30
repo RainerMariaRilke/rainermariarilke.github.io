@@ -902,6 +902,8 @@ p.lead {
 	margin-right: 40%;
 	padding: 0;
 	}
+p.ftl,
+p.ftr,
 p.lfig,
 p.rfig {
 	float: left;
@@ -1036,6 +1038,8 @@ img.bcright {
 	margin: 0 5% 0.5em 50%;
 	padding: 0;
 	}
+p.ftl,
+p.ftr,
 p.fig,
 p.lfig,
 p.rfig {
