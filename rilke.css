@@ -685,7 +685,6 @@ p.ftl {
 }
 
 p.ftr {
-	float: right;
 	width: 15%;
   	font-size: 0.618em;
 	text-align: right;
