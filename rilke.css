@@ -903,7 +903,12 @@ p.lead {
 	padding: 0;
 	}
 p.ftl,
-p.ftr,
+p.ftr {
+	margin-left: 5%;
+	margin-right: 75%;
+	padding: 0;
+	text-align: left;
+	}
 p.lfig,
 p.rfig {
 	float: left;
@@ -1039,12 +1044,17 @@ img.bcright {
 	padding: 0;
 	}
 p.ftl,
-p.ftr,
+p.ftr {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	}
 p.fig,
 p.lfig,
 p.rfig {
 	width: 80%;
 	margin: 1em 10% 2em;
 	padding: 0;
-	}
+}
 }
