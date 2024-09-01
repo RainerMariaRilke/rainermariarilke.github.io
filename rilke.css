@@ -909,7 +909,7 @@ p.lfig,
 p.rfig {
 	float: left;
 	width: 20%;
-	margin: 1em 75% 1em 5%;
+	margin: 1em 75% 2.4em 5%;
 	padding: 0;
 	}
 img.pic,
@@ -1050,7 +1050,7 @@ p.fig,
 p.lfig,
 p.rfig {
 	width: 80%;
-	margin: 1em 10% 2em;
+	margin: 1em 10% 2.4em;
 	padding: 0;
 }
 }
