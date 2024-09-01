@@ -676,6 +676,8 @@ p.right {
 }
 
 p.ftl {
+  	float: left;
+	width: 20%;
   	font-size: 0.618em;
 	text-align: left;
 	margin: 2.4em 75% 2.4em 5%;
@@ -683,7 +685,9 @@ p.ftl {
 }
 
 p.ftr {
-  	font-size: 0.618em;
+  	float: right;
+	width: 15%;
+	font-size: 0.618em;
 	text-align: right;
 	margin: 2.4em 5% 2.4em 80%;
 	padding: 0;
@@ -703,7 +707,7 @@ p.lfig {
 	width: 10%;
   	font-size: 0.618em;
 	text-align: left;
-	margin: 1em 5% 1em 0;
+	margin: 2.4em 5% 2.4em 0;
 	padding: 0;
 }
 
@@ -712,7 +716,7 @@ p.rfig {
 	width: 10%;
   	font-size: 0.618em;
 	text-align: left;
-	margin: 1em 0 1em 5%;
+	margin: 2.4em 0 2.4em 5%;
 	padding: 0;
 }
 
