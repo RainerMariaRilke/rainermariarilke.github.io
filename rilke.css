@@ -915,6 +915,7 @@ p.lead {
 p.lfig,
 p.rfig {
 	float: none;
+	width: 60%;
 	margin: 2em 10% 2em 30%;
 	text-align: left;
 	}
@@ -1004,6 +1005,7 @@ p.lm {
 	text-align: left;
 	}
 p.cit,
+p.icit,
 p.pft {
 	margin-left: 20%;
 	margin-right: 10%;
