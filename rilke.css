@@ -738,8 +738,9 @@ cite {
 
 
 img.l90 {
+
 	width: 90%;
-	margin: 1em 10% 1em 0%;
+	margin: 1em 10% 1em 0;
 	padding: 0;
 }
 
@@ -789,6 +790,12 @@ img.pic {
 	margin: 1em 5%;
 	padding: 0;
 	width: 90%;
+}
+
+img.pic100 {
+	margin: 1em 0;
+	padding: 0;
+	width: 100%;
 }
 
 img.picnl {
