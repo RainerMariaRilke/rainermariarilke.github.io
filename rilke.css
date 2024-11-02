@@ -914,10 +914,9 @@ p.lead {
 	}
 p.lfig,
 p.rfig {
-	float: left;
-	width: 20%;
-	margin: 1em 75% 2.4em 5%;
-	padding: 0;
+	float: none;
+	margin: 2em 10% 2em 30%;
+	text-align: left;
 	}
 img.pic,
 img.picnl,
@@ -1056,8 +1055,9 @@ p.ftr {
 p.fig,
 p.lfig,
 p.rfig {
+	float: none;
 	width: 80%;
-	margin: 1em 10% 2.4em;
+	margin: 1.4em 10% 2.4em;
 	padding: 0;
 }
 }
