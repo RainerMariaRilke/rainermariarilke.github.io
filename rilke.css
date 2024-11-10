@@ -694,11 +694,11 @@ p.ftr {
 }
 
 p.fig {
-  	float: left;
-	width: 20%;
-	text-align: left;
+  	float: right;
+	width: 10%;
   	font-size: 0.618em;
-	margin: 2.4em 75% 2.4em 5%;
+	text-align: left;
+	margin: 1.6em 5% 2.4em 0;
 	padding: 0;
 }
 
