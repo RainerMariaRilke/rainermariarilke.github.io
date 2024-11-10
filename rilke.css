@@ -737,6 +737,12 @@ cite {
 ----------------------------------------------- */
 
 
+img.p100 {
+	margin: 1em 0;
+	padding: 0;
+	width: 100%;
+}
+
 img.l90 {
 
 	width: 90%;
@@ -790,12 +796,6 @@ img.pic {
 	margin: 1em 5%;
 	padding: 0;
 	width: 90%;
-}
-
-img.pic100 {
-	margin: 1em 0;
-	padding: 0;
-	width: 100%;
 }
 
 img.picnl {
@@ -921,6 +921,10 @@ p.rfig {
 	}
 img.pic,
 img.picnl,
+img.p100,
+img.p90,
+img.p80,
+img.p70,
 img.l90,
 img.l80,
 img.l70,
@@ -928,10 +932,7 @@ img.l50,
 img.r90,
 img.r80,
 img.r70,
-img.r50,
-img.p90,
-img.p80,
-img.p70 {
+img.r50 {
 	margin: 1em 0;
 	padding: 0;
 	width: 100%;
@@ -1027,6 +1028,10 @@ body.slt p.ft {
 	}
 img.pic,
 img.picnl,
+img.p100,
+img.p90,
+img.p80,
+img.p70,
 img.l90,
 img.l80,
 img.l70,
@@ -1034,10 +1039,7 @@ img.l50,
 img.r90,
 img.r80,
 img.r70,
-img.r50,
-img.p90,
-img.p80,
-img.p70 {
+img.r50 {
 	margin: 1em 0;
 	padding: 0;
 	width: 100%;
