@@ -738,7 +738,7 @@ cite {
 
 
 img.p100 {
-	margin: 1.4em 0;
+	margin: 1em 0;
 	padding: 0;
 	width: 100%;
 }
@@ -891,12 +891,12 @@ p.inlead,
 p.lm,
 p.ftl,
 p.ftr {
-	margin: 2em 10% 2em 30%;
+	margin: 2.4em 10% 2.4em 30%;
 	text-align: left;
 	}
 p.cit,
 p.pft {
-	margin: 0 20% 1em 20%;
+	margin: 2.4em 25%;
 	padding: 0;
 	text-align: left;
 	}
@@ -912,11 +912,12 @@ p.lead {
 	margin-right: 40%;
 	padding: 0;
 	}
+p.fig,
 p.lfig,
 p.rfig {
 	float: none;
 	width: 60%;
-	margin: 2em 10% 2em 30%;
+	margin: 1.4em 10% 2.4em 30%;
 	text-align: left;
 	}
 img.pic,
