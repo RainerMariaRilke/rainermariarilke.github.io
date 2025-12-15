@@ -1041,15 +1041,22 @@ img.l50,
 img.r90,
 img.r80,
 img.r70,
-img.r50,
-img.bcleft,
-img.bcright {
+img.r50 {
 	margin: 1em 0;
 	padding: 0;
 	width: 100%;
 	}
+img.bcleft,
+img.bcright {
+	float: none;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	}
 p.ftl,
-p.ftr {
+p.ftr,
+	{
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
